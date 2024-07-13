@@ -1,0 +1,333 @@
+﻿
+.container-fluid p{
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+}
+.vision1 h3 {
+    color: red;
+    text-align: center;
+}
+.enroll {
+    background-color: #ab0606;
+}
+.button,.button1:hover
+{
+ background-color:lavender;
+}
+.about-div
+{
+background-color:#80DA64;
+margin-top:0;
+}
+.headings  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    font-size: 30px;
+    font-weight: bold;
+}
+@media screen and (min-width:64px) and (max-width:320px) {
+    .options1 {
+        width: 200px;
+        margin-left: 30px;
+        height: 35px;
+        border-color: lightgray;
+        border-radius: 3px;
+    }
+
+    .form {
+        width: 280px;
+        margin-bottom: 20px;
+        height: 420px;
+        margin-left:10px;
+    }
+
+    .options {
+        width: 200px;
+        margin-left: 30px;
+        height: 35px;
+        border-color: lightgray;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        background-color: white;
+        margin: 10px 0px 100px 80px;
+        border-radius: 10px;
+        width: 100px;
+        height: 35px;
+        color: red;
+        font-size: 18px;
+    }
+
+    .vision {
+        width: 40%;
+        height: 40%;
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+
+    .button1 {
+        width: 70%;
+        height: 50%;
+        color: red;
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px 0px 50px 30px;
+    }
+
+    .vision1 p {
+        margin-left: 30px;
+    }
+
+    .enrollcontent {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+   
+}
+@media screen and (min-width:321px) and (max-width:424px) {
+    .options1 {
+        width: 200px;
+        margin-left: 30px;
+        height: 35px;
+        border-color: lightgray;
+        border-radius: 3px;
+    }
+    .form {
+        width: 280px;
+        margin-bottom: 20px;
+        height:430px;
+        margin-left:30px;
+    }
+    .options {
+        width: 200px;
+        margin-left: 30px;
+        height: 35px;
+        border-color: lightgray;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        background-color: white;
+        margin: 10px 0px 100px 80px;
+        border-radius: 10px;
+        width: 100px;
+        height: 35px;
+        color: red;
+        font-size: 18px;
+    }
+    .vision {
+        width: 40%;
+        height: 40%;
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+    .button1 {
+        width: 70%;
+        height: 50%;
+        color: red;
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px 0px 50px 30px;
+    }
+    .vision1 p {
+        margin-left: 30px;
+    }
+    .enrollcontent {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+   
+}
+
+@media screen and (min-width:425px) and (max-width:600px) {
+    .form {
+        width: 350px;
+        margin-bottom: 20px;
+        height: 430px;
+        margin-left: 30px;
+    }
+
+    .options1 {
+        width: 260px;
+        margin-left: 40px;
+        height: 35px;
+        border-color: lightgray;
+        border-radius: 3px;
+    }
+
+    .options {
+        width: 260px;
+        margin-left: 40px;
+        height: 35px;
+        border-color: lightgray;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        background-color: white;
+        margin: 10px 0px 100px 80px;
+        border-radius: 10px;
+        width: 100px;
+        height: 35px;
+        color: red;
+        font-size: 18px;
+    }
+
+    .vision {
+        width: 40%;
+        height: 40%;
+        margin-left: 120px;
+        margin-bottom: 10px;
+    }
+
+    .button1 {
+        width: 40%;
+        height: 50%;
+        color: red;
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px 0px 50px 80px;
+    }
+
+    .vision1 p {
+        margin-left: 30px;
+    }
+
+    .enrollcontent {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+   
+
+    
+}
+@media screen and (min-width:601px) and (max-width:1024px) {
+    .form {
+        width: 300px;
+        margin-left: 40px;
+        height:430px;
+        margin-bottom:20px;
+    }
+    .options1 {
+        width: 260px;
+        margin-left: 20px;
+        height: 35px;
+        border-color: lightgray;
+        border-radius: 3px;
+    }
+
+    .options {
+        width: 260px;
+        margin-left: 20px;
+        height: 35px;
+        border-color: lightgray;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        background-color: white;
+        margin: 10px 0px 100px 80px;
+        border-radius: 10px;
+        width: 100px;
+        height: 35px;
+        color: red;
+        font-size: 18px;
+    }
+
+    .vision {
+        width: 40%;
+        height: 40%;
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
+
+    .button1 {
+        width: 60%;
+        height: 20%;
+        color: red;
+        background-color: white;
+        border-radius: 10px;
+        margin: 80px 0px 80px 80px;
+    }
+
+    .vision1 p {
+        margin-left: 10px;
+        margin-bottom:50px;
+    }
+
+    .enrollcontent {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:2560px) {
+
+    .form {
+        width: 400px;
+        margin-left: 40px;
+        height:auto;
+    }
+
+    .options1 {
+        width: 260px;
+        margin-left: 70px;
+        height: 35px;
+        border-color: lightgray;
+        border-radius: 3px;
+    }
+
+    .options {
+        width: 260px;
+        margin-left: 70px;
+        height: 35px;
+        border-color: lightgray;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    .button1 {
+        width: 50%;
+        height: 20%;
+        color: red;
+        background-color: white;
+        border-radius: 10px;
+        margin: 100px 0px 100px 80px;
+    }
+
+ 
+
+    .enrollcontent {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .vision {
+        width: 40%;
+        height: 40%;
+        margin-left: 130px;
+        margin-bottom: 10px;
+    }
+
+
+    .vision1 p {
+        margin-left: 50px;
+    }
+    .button {
+        background-color: white;
+        margin: 10px 0px 100px 80px;
+        border-radius: 10px;
+        width: 100px;
+        height: 35px;
+        color: red;
+        font-size: 18px;
+    }
+    
+}
+
+

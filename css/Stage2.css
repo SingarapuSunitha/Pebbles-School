@@ -1,0 +1,296 @@
+﻿
+
+.stagename {
+    background: linear-gradient(29deg,#e2e789 0,#f8d92fcf 49%,#9a9b14 94%);    
+}
+.stagecards{
+    background-color: #E40C2B;
+    padding: 0;
+}
+.stagecards a{
+    text-decoration:none;
+}
+.stagecard p
+{
+    text-align:center;
+}
+iframe{
+    margin-top:20px;
+}
+.table-div {
+    background-color: #88d914;
+    margin-top: 0;
+}
+.primary-table {
+    background-color: #ffc10d;
+}
+.table2 {
+    margin: 20px 0 20px 0;
+}
+.table2 th {
+    border: 1px solid rgb(0, 0, 0);
+}
+.accordiontab li {
+    color: black;
+}
+.table2 td {
+    border: 1px solid rgb(0, 0, 0);
+}
+.videosinps {
+    background-color: #68b9d8;
+}
+    .videosinps h1 {
+        color: black;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Monotype Corsiva';
+        font-size: 30px;
+        font-weight: bold;
+    }
+.headings {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Monotype Corsiva';
+    font-size: 30px;
+    font-weight: bold;
+}
+.primary-phase{
+    background-color: #edec14e0;}
+ 
+
+@media screen and (min-width:64px) and (max-width:700px)
+{
+    .stagecard {
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .stagename h1 {
+        margin: 80px 0px 80px 0px;
+        color: orangered;
+        font-size: 26px;
+        font-family: 'Lucida Calligraphy';
+        font-weight: bold;
+    }
+      
+
+    /* tab1 Preparatory Stage Subjects*/
+
+    .table2 {
+        width: 100%;
+        font-size: 9px;
+    }
+    .activitytab
+    {
+        display:none;
+        
+    }
+   iframe{
+     
+       width:100%;
+       height:80%;
+       padding:0;
+   }
+}
+.table {
+    width: 10%;
+    height:10vh;
+}
+
+@media screen and (min-width:701px) and (max-width:900px) 
+{
+    .stagename h1 {
+        margin: 80px 0px 80px 10px;
+        color: orangered;
+        font-size: 26px;
+        font-family: 'Lucida Calligraphy';
+        font-weight: bold;
+    }
+    .stagecards .col-md-4{
+        margin-top:20px;
+    }
+    .accordiontab{
+        display:none;
+    }
+    .stagecard {
+        margin: 0px 0 20px 0px;
+        width:100%;
+        height:100%;
+        
+    }
+    .tab {
+        float: left;
+        border: 2px solid #eecf4bbd;
+        background-color: #f9e546;
+        width: 30%;
+        height: auto;
+        margin-bottom:20px;
+       
+    }
+    .tabcontent {
+        float: left;
+        padding: 0px 0px;
+        border: 1px solid #ccc;
+        width: 70%;
+        border-left: none;
+        height: auto;
+        background-color:red;
+        border: 0.5px solid gray;
+    }
+  
+    iframe {
+        width: 100%;
+        height: 80%;
+        
+    }
+}
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .stagename h1 {
+        margin: 80px 0px 80px 10px;
+        color: orangered;
+        font-size: 30px;
+        font-family: 'Lucida Calligraphy';
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .stagecards .col-md-4 {
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
+    .accordiontab{
+        display:none;
+    }
+    .tab {
+        float: left;
+        border: 2px solid #eecf4bbd;
+        background-color: #f9e546;
+        width: 30%;
+        margin-bottom:20px;
+        height: auto;
+    }
+    .tabcontent {
+        float: left;
+        padding: 0px 12px;
+        border: 1px solid black;
+        width: 70%;
+        border-left: none;
+        height: auto;
+        margin-bottom: 20px;
+        border: 0.5px solid black;
+        background-color:red; 
+    }
+    iframe {
+       
+        margin-bottom: 40px;
+        
+    }
+    
+
+
+}
+@media screen and (min-width:1201px) and (max-width:2560px) {
+    .stagename h1 {
+        margin: 43px 0px 59px 0px;
+        color: orangered;
+        font-size: 50px;
+        font-family: cursive;
+        font-weight: bolder;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .stagecard{
+        width:80%;
+        height:100%;
+    }
+    .stagecards .col-md-4 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .accordiontab {
+        display: none;
+    }
+
+    .tab {
+        float: left;
+        border: 2px solid #eecf4bbd;
+        background-color: #f9e546;
+        height: auto;
+        margin-bottom:20px;
+    }
+    .tabcontent {
+        float: left;
+        padding: 0px 12px;
+        border: 1px solid #ccc;
+        width: 70%;
+        border-left: none;
+        height: auto;
+        margin-bottom: 30px;
+        border: 0.5px solid gray;
+        background-color:red;
+    }
+   
+    
+    iframe {
+       
+        margin-bottom: 30px;
+        display: block;
+        
+    }
+   
+}
+
+user agent stylesheet table1 {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: black;
+    width:50%;
+}
+.table1 td,th,tr{
+    width:10%;
+}
+
+/* Style the tab */
+
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        display: block;
+        background-color: inherit;
+        color: black;
+        padding: 22px 16px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+    .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Change background color of buttons on hover */
+       
+
+        /* Create an active/current "tab button" class */
+        .tab button.active {
+            background-color:red;
+            border: 0.5px solid black;
+        }
+
+/* Style the tab content */
+
+
+
+
+
+
+
+

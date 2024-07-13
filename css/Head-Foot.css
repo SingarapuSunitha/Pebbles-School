@@ -1,0 +1,287 @@
+﻿body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.marquee {
+    background: linear-gradient(29deg,#f0eff5 0,#7f7bf3cf 49%,#d9d9de 94%);
+        font-size: 17px;
+    font-family: cursive;
+}
+
+.head-top {
+    /*border: 1px solid red; */
+    background: linear-gradient(29deg,#2d09e1 0,#5c77fc 49%,#1ab174 94%);
+    font-size: 20px;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.social-links {
+    /* border: 1px solid rgb(6, 101, 6);*/
+    height: 100%;
+    display: flex;
+    gap: 31px;
+    margin-right: 11px;
+}
+
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    margin-top: -2px;
+    font-size: 30px;
+    border-radius: 21%;
+    padding: 4px 2px;
+}
+
+    .social-links a:hover {
+        background-color: #619df0;
+        font-size: 28px;
+    }
+.school-name {
+    margin-right: 19%;
+    color: white;
+    font-family: ui-serif;
+}
+.links a{
+    text-decoration:none;
+    color:white;
+}
+.links a:hover{
+    color:lightcoral;
+}
+.links ul {
+    list-style-type: none;
+}
+
+.campus {
+   color: #51e29a;
+  
+}
+.academic {
+    color: #dd4f75;
+}
+.contact {
+    color: #88d914;
+}
+.gallery {
+    color: #ffc10d;
+}
+.admission {
+  color: #68b9d8;
+}
+.about {
+   color: #ff5d52;
+}
+
+@media screen and (min-width:64px) and (max-width:376px) {
+    .pebblelogo {
+        width: 40%;
+        height: 40%;
+    }
+    .social-links {
+        gap: 17px;
+    }
+    .school-name {
+        display: none;
+    }
+    .footerlogo {
+        width: 40%;
+        height: 40%;
+        margin-left:80px;
+    }
+   
+    .social-links a {
+        font-size: 21px;
+    }
+    .footer-box p,ul,h2 {
+        color: #fff;
+        text-align:center;
+    }
+    
+    .footerlogo2 {
+        width: 40%;
+        height: 10%;
+        margin-left: 80px;
+    }
+    .linklogo
+    {
+        margin-left:70px;
+    }
+}
+
+@media screen and (min-width:377px) and (max-width:500px) {
+    .pebblelogo {
+        width: 20%;
+        height: 20%;
+        
+        
+    }
+
+    .social-links {
+        gap: 17px;
+    }
+    .social-links a {
+        font-size: 21px;
+    }
+    .school-name {
+        display: none;
+    }
+
+    .footerlogo {
+        width: 50%;
+        height: 30%;
+        margin-left: 100px;
+    }
+    
+
+    .footerlogo2 {
+        width: 40%;
+        height: 10%;
+        margin-left: 120px;
+    }
+    .footer-box h2 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        margin-top: 15px;
+        margin-top: 15px;
+       
+    }
+    .linklogo {
+        margin-left: 130px;
+    }
+    .footer-box p{
+        color: #fff;
+        text-align: center;
+    }
+    .footer-box ul {
+        color: #fff;
+        text-align: center;
+    }
+    .footer-box h2{
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:769px) {
+    .pebblelogo {
+        width: 20%;
+        height: 20%;
+    }
+    .footerlogo {
+        width: 20%;
+        height: 10%;
+    }
+
+
+    .footerlogo2 {
+        width: 40%;
+        height: 10%;
+        
+    }
+
+    .linklogo {
+        margin-left: 10px;
+    }
+    footer {
+        padding-left: 80px;
+    }
+    
+}
+
+@media screen and (min-width:770px) and (max-width:1300px) {
+    .pebblelogo {
+        width: 20%;
+        height: 20%;
+        margin-right: 50px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+    .footerlogo {
+        width: 60%;
+        height: 30%;
+    }
+
+    footer {
+        padding-left: 40px;
+    }
+    .footerlogo2 {
+        width: 40%;
+        height: 10%;
+    }
+
+}
+
+@media screen and (min-width:1301px) and (max-width:2561px) {
+    .pebblelogo {
+        width: 10%;
+        height: 10%;
+    }
+    .navv {
+        margin-left: 100px;
+    }
+
+    .nav-link {
+        margin-right: 30px;
+    }
+
+    .dropdown {
+        cursor: pointer;
+    }
+    
+    .footerlogo {
+        width: 50%;
+        height: 20%;
+    }
+    .footerlogo2 {
+        width: 40%;
+        height: 20%;
+    } 
+}
+footer {
+    background: #101010;
+   padding-top:30px;
+}
+.footer-box h2 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 15px;   
+}
+.footer-box p{
+    color:#fff;
+    
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+    color: #fff;
+    
+}
+
+    .footer-box ul li a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 2.5;
+        font-weight: 100;
+    }
+    .footer-box ul li a:hover {
+        text-decoration: none;
+        color: red;
+        
+    }
+
+.dropdown-menu li
+{
+    color:black;
+    text-align:center;
+}
+
+

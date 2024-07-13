@@ -1,0 +1,744 @@
+﻿
+.head-top{
+    background-color: #e8e6ef;
+}
+.startingcarousel .carousel-inner .carousel-item > img
+{
+    -webkit-animation:thing 5s;
+    -o-animation:thing 5s;
+    animation:thing 5s;
+}
+
+.stagecardbg {
+    background-color: #FFEB3B;
+    background-size: 100% 100%;
+}
+
+.stagecards .card-body {
+    background-color: #E40C2B;
+}
+.stagecards p, h5 {
+    text-align: center;
+}
+.stagecards .card img{
+    width: 100%;
+    height: 100%;
+}
+.why-div{
+background-color: #FFEB3B;
+}
+.card-text ,.card-title{
+    font-weight: 900;
+}
+@keyframes thing
+{
+    from
+    {
+        transform:scale(1,1);
+    }
+    to
+    {
+        transform:scale(1.5,1.5);
+    }
+}
+.activity-bg {
+    background-color:#68b9d8;
+}
+.team-bg {
+    background-color: #88d914;
+}
+.infrastructure-bg {
+    background-color: #E40C2B;
+}
+.teamcard,.teamcard3{
+    background-color:antiquewhite;
+}
+    .teamcard,.teamcard3 p{
+        text-align: center;
+        font-size: 20px;
+       
+    }
+/*media queries*/
+
+@media screen and (min-width:64px) and (max-width:374px) {
+    .startingcarousel .carousel-inner .carousel-item > img {
+        display: block;
+        max-width: 100%;
+        height: 300px !important;
+    }
+    .headings h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Monotype Corsiva';
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+
+    .stagecards .card {
+        width: 100%;
+        height: 50vh;
+        margin-bottom:20px;
+    }
+    .carouselcards1 .carousel-inner .carousel-item > img {
+        display: block;
+        max-width: 100%;
+        height: 250px !important;
+        margin-bottom:20px;
+    }
+    #carouselcards2 {
+        display: none;
+    }
+    .teamcard {      
+        margin-top: 30px;
+        width: 100%;
+        height: 85%;
+        margin-bottom: 20px;
+    }
+    .teamcard3 {
+        margin-top: 30px;
+        width: 100%;
+        height: 75%;
+        margin-bottom: 20px;
+    }
+    .team img {
+        border-radius: 60%;
+        width: 70%;
+        height: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .infrastructure-button {
+        margin-bottom: 20px;
+    }
+    .infrastructure-link {
+        display: none;
+    }
+       
+    
+}
+@media screen and (min-width:375px) and (max-width:400px) {
+
+    .startingcarousel .carousel-inner .carousel-item > img {
+        display: block;
+        max-width: 100%;
+        height: 300px !important;
+    }
+
+    .headings h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Monotype Corsiva';
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+
+    .stagecards .card {
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+    .stagecards .col-md-6
+    {
+        margin-bottom:20px;
+    }
+
+    .carouselcards1 .carousel-inner .carousel-item > img {
+        display: block;
+        max-width: 100%;
+        height: 250px !important;
+        margin-bottom: 20px;
+    }
+
+    #carouselcards2 {
+        display: none;
+    }
+
+    .teamcard {
+        margin-top: 30px;
+        width: 100%;
+        height: 80%;
+        margin-bottom: 20px;
+    }
+
+    .team img {
+        border-radius: 60%;
+        width: 70%;
+        height: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .teamcard3{
+        width:100%;
+        height:50vh;
+        margin-bottom:20px;
+    }
+    .teamcard3 .col-md-4
+    {
+        margin:0;
+        padding:0;
+    }
+    .infrastructure-button {
+        margin-bottom: 20px;
+    }
+
+    .infrastructure-link {
+        display: none;
+    }
+
+}
+@media screen and (min-width:400px) and (max-width:500px) {
+
+    .startingcarousel .carousel-inner .carousel-item > img {
+        display: block;
+        max-width: 100%;
+        height: 300px !important;
+    }
+
+    .headings h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Monotype Corsiva';
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+
+    .stagecards .card {
+        width: 90%;
+        height: 80%;
+        margin-left:20px;
+        margin-bottom: 20px;
+    }
+
+    .stagecards .col-md-6 {
+        margin-top:20px;
+   
+    }
+
+    .carouselcards1 .carousel-inner .carousel-item > img {
+        display: block;
+        max-width: 100%;
+        height: 250px !important;
+        margin-bottom: 20px;
+    }
+
+    #carouselcards2 {
+        display: none;
+    }
+
+    .teamcard {
+        margin-top: 30px;
+        width: 100%;
+        height: 80%;
+        margin-bottom: 20px;
+    }
+
+    .team img {
+        border-radius: 60%;
+        width: 70%;
+        height: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .teamcard3 {
+        width: 100%;
+        height: 50vh;
+        margin-bottom:20px;
+    }
+
+        .teamcard3 .col-md-4 {
+            margin: 0;
+            padding: 0;
+        }
+
+    .infrastructure-button {
+        margin-bottom: 20px;
+    }
+
+    .infrastructure-link {
+        display: none;
+    }
+}
+@media screen and (min-width:501px) and (max-width:769px) {
+
+
+    .startingcarousel .carousel-inner .carousel-item > img {
+        display: block;
+        max-width: 100%;
+        height: 300px !important;
+    }
+
+    .headings h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Monotype Corsiva';
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .stagecards .card {
+        width: 90%;
+        height: 80%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .stagecards .col-md-6 {
+        margin-top: 20px;
+    }
+
+
+    
+
+    .teamcard {
+     
+        width: 100%;
+        height: 90%;
+        margin-bottom: 20px;
+    }
+
+    .team img {
+        border-radius: 60%;
+        width: 70%;
+        height: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .teamcard3 {
+        width: 100%;
+        height: 90%;
+        margin-bottom: 20px;
+    }
+
+        .teamcard3 .col-md-4 {
+            margin: 0;
+            padding: 0;
+        }
+
+    .infrastructure-button {
+        margin-bottom: 20px;
+    }
+
+    .c {
+        display: none;
+    }
+
+    .carouselcards1 {
+        display: none;
+    }
+
+    #carouselcards2 .carousel-inner {
+        display: flex;
+        padding: 0.1em;
+        height: 180px;
+    }
+
+    #carouselcards2 .carousel-item {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 0;
+        flex: 0 0 calc(100%/4);
+    }
+
+    #carouselcards2 .activitycard {
+        margin: 5px;
+        margin-top: 25px;
+        border: 2px solid black;
+    }
+
+    #carouselcards2 .img-wrapper {
+        max-width: 100%;
+        height: 26vw;
+        margin-top: 20px;
+    }
+    #carouselcards2 .activitycard img {
+        width: 100%;
+        height: 100%;
+    }
+    .infrastructure-button1 {
+        font-size: 20px;
+        margin: 0px 20px 20px 60px;
+    }
+
+    .infrastructure-button2 {
+        font-size: 20px;
+        margin: 0px 20px 20px 60px;
+    }
+}
+@media screen and (min-width:770px) and (max-width:1025px) {
+    .startingcarousel .carousel-inner .carousel-item > img {
+        display: block;
+        max-width: 100%;
+        height: 300px !important;
+    }
+
+    .headings h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Monotype Corsiva';
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .stagecards .card {
+        width: 90%;
+        height: 80%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .stagecards .col-md-6 {
+        margin-top: 20px;
+    }
+
+    .infrastructure-button1 {
+        font-size: 20px;
+        margin: 0px 20px 20px 10em;
+    }
+
+    .infrastructure-button2 {
+        font-size: 20px;
+        margin: 0px 20px 20px 60px;
+    }
+
+
+    .teamcard {
+        width: 100%;
+        height: 90%;
+        margin-bottom: 20px;
+    }
+
+    .team img {
+        border-radius: 60%;
+        width: 70%;
+        height: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .teamcard3 {
+        width: 100%;
+        height: 90%;
+        margin-bottom: 20px;
+    }
+
+        .teamcard3 .col-md-4 {
+            margin: 0;
+            padding: 0;
+        }
+
+    .infrastructure-button {
+        margin-bottom: 20px;
+    }
+
+    .c {
+        display: none;
+    }
+    .carouselcards1 {
+        display: none;
+    }
+
+    #carouselcards2 .carousel-inner {
+        display: flex;
+        padding: 0.1em;
+        height: 250px;
+    }
+
+    #carouselcards2 .carousel-item {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 0;
+        flex: 0 0 calc(100%/4);
+    }
+
+    #carouselcards2 .activitycard {
+        margin: 5px;
+        margin-top: 35px;
+        border: 2px solid black;
+        
+    }
+
+    #carouselcards2 .img-wrapper {
+        max-width: 100%;
+        height: 26vw;
+        margin-top: 20px;
+    }
+
+    #carouselcards2 .activitycard img {
+        width: 100%;
+        height: 100%;
+    }
+    .headings p {
+        font-size: 20px;
+    }
+ 
+}
+
+@media screen and (min-width:1026px) and (max-width:2561px) {
+    .startingcarousel .carousel-inner .carousel-item > img {
+        display: block;
+        max-width: 100%;
+        height: 500px !important;
+    }
+
+    .headings h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Monotype Corsiva';
+        font-size: 40px;
+        font-weight: bold;
+      
+        text-decoration-color: red;
+    }
+
+    .stagecards .card {
+        width: 50%;
+        height: 70%;
+        margin-left: 150px;
+        margin-bottom: 20px;
+    }
+
+    .stagecards .col-md-6 {
+        margin-top: 20px;
+    }
+
+    .infrastructure-button1 {
+        font-size: 20px;
+        margin: 0px 20px 20px 10em;
+    }
+
+    .infrastructure-button2 {
+        font-size: 20px;
+        margin: 0px 20px 20px 60px;
+    }
+
+
+    .teamcard {
+        width: 90%;
+        height: 50vh;
+    }
+
+    .team img {
+        border-radius: 60%;
+        width: 70%;
+        height: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .teamcard3 {
+        width: 90%;
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+
+        .teamcard3 .col-md-4 {
+            margin: 0;
+            padding: 0;
+        }
+
+    .infrastructure-button {
+        margin-bottom: 20px;
+    }
+
+    .c {
+        display: none;
+    }
+ 
+    .carouselcards1 {
+        display: none;
+    }
+
+    #carouselcards2 .carousel-inner {
+        display: flex;
+        padding: 0.1em;
+        height: 320px;
+    }
+
+    #carouselcards2 .carousel-item {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 0;
+        flex: 0 0 calc(100%/4);
+    }
+
+    #carouselcards2 .activitycard {
+        margin: 5px;
+        margin-top: 25px;
+        border: 2px solid black;
+    }
+
+    #carouselcards2 .img-wrapper {
+        max-width: 100%;
+        height: 26vw;
+        margin-top: 20px;
+    }
+
+    #carouselcards2 .activitycard img {
+        width: 100%;
+        height: 100%;
+    }
+    .infrastructure-button1 {
+        font-size: 20px;
+        margin: 0px 20px 20px 19em;
+    }
+
+    .infrastructure-button2 {
+        font-size: 20px;
+        margin: 0px 20px 20px 60px;
+    }
+    .headings p {
+        font-size: 20px;
+    }
+   
+}
+.videowidth {
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+  
+}
+.video{
+    background-color:black;
+
+}
+
+
+.stagecards a
+{
+    text-decoration:none;
+}
+.btn {
+    background:#EA445A;
+    color: white;
+}
+.btn:hover {
+    background: yellow;
+    color: red;
+}
+#carouselcards1 .carousel-inner .carousel-item
+{
+    width:100%;
+    height:100%;
+}
+#carouselcards2 .activitycard {
+    width: 90%;
+    height: 70%;
+}
+.Infrastructure-div {
+    width: 100%;
+    height: auto;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /*border: 2px solid rgb(235, 220, 12);*/
+}
+
+.Infrastructure-title {
+    /*border: 1px solid black;*/
+    width: 72%;
+    height: auto;
+    margin-left: 14%;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 2%;
+    background: #f2f0f0eb;
+}
+
+    .infrastructure-title strong {
+        color: #fd3b09;
+        font-size: 44px;
+        font-style: italic;
+        font-family: ui-serif;
+        font-weight: bold;
+        position: relative;
+        top: 10px;
+        text-shadow: 0px 2px #88b06f;
+    }
+/* flip card*/
+.flex-wrap {
+    transform-style: preserve-3d;
+    /*border: 1px solid red;*/
+    display: flex;
+    height: auto;
+}
+.infrastructure-button
+{
+   
+    background-color:white;
+    border:2px solid green;
+    color:red;
+
+}
+
+.infrastructure-link a {
+    text-decoration: none;
+}
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+    .container .box .body {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: 0.9s ease;
+    }
+
+        .container .box .body .imgContainer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+        }
+
+            .container .box .body .imgContainer img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .container .box .body .content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #333;
+            backface-visibility: hidden;
+            transform-style: preserve-3d;
+            transform: rotateY(180deg);
+        }
+
+    .container .box:hover .body {
+        transform: rotateY(180deg);
+    }
+
+    .container .box .body .content div {
+        transform-style: preserve-3d;
+        padding: 20px;
+        background: linear-gradient(45deg, #FE0061,#FFEB3B);
+        transform: translateZ(100px);
+    }
+
+        .container .box .body .content div h3 {
+            letter-spacing: 1px;
+        }

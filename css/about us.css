@@ -1,0 +1,171 @@
+body{
+    font-size:16px;
+}
+.container .row p{
+    font-size:20px;
+    font-family:'Bell MT';
+    margin-left: 3%;
+}
+.about-name{
+    background-color: rgb(241, 6, 6);
+    background-image: linear-gradient(rgb(0,0,8,0.6 ), rgb(233,9,9,0.6)),url("../images/aboutimg2.jpeg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   
+}
+    .about-row h1 {
+        margin: 80px 0px 80px 0px;
+        color: rgb(252, 249, 248);
+        font-size: 67px;
+        font-family:'Lucida Calligraphy';
+        font-weight:bold;
+		
+    }
+    
+
+.headings {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Monotype Corsiva';
+    font-size: 40px;
+    font-weight: bold;
+}
+.headings :hover{
+    font-size: 42px;
+    transition: 1s ease;
+}
+h1:hover{
+    font-size: 43px;
+    transition: 1s ease;
+}
+
+.model-div {
+    background-color: #E40C2B;
+}
+
+
+.model-image img {
+    width: 100%;
+    height: 100%;
+    border: 69px solid #f8c238;
+    margin-top: 50px;
+}
+    .model-image img:hover {
+        transition: 2s ease;
+        border: 1px solid #ffc10d;
+        border-radius: 5%;
+        width: 100%;
+        height: 100%;
+        margin-top: 70px;
+    }
+.offer-features ul{
+    margin-left: 0%;
+}
+.offer-features ul li{
+    text-align: left;
+}
+.why-content{
+    height: fit-content;
+}
+
+.model-title h1{
+   color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.why-title h1{
+   
+    font-size: 50px;
+    text-align:center;
+    font-weight: bold;
+}
+.why-features{
+    padding: 3% 2% 2%;
+}
+.feature{
+    text-align: center;
+   
+}
+
+.feature img{
+    width: 144px;
+    height: 100px;
+    margin-left: 35%;
+}
+.feature img:hover{
+    width: 150px;
+    height: 104px;
+    
+}
+.feature-name{
+    text-align: center;
+}
+
+.history-div {
+    background-color: #FFEB3B;
+}
+.mission-div {
+    background-color: #FFEB3B;
+}
+.why-div {
+    background-color: #85b2e2;
+}
+
+.offer1 {
+    background-color: #E40C2B;
+  
+}
+.offer2 {
+    background-color: #3af33d;
+  
+}
+
+.offer1 h1{
+    color: white;
+    text-align: center;
+   font-size: 34px;
+}
+.offer1 h1:hover{
+    
+    font-size: 36px;
+}
+.offer1 p,ul{
+    color:white;
+    margin-left:30px;
+}
+.offer2 p,h4{
+    color:black;
+    margin-left:50px;
+}
+@media screen and (max-width:768px){
+   
+    .model-image img {
+       
+        border: 18px solid #cccac5;
+      
+    }
+    
+
+}
+@media screen and (max-width:376px){
+    .about-row h1{
+        font-size: 20px;
+    }
+    .history-title h1{
+        font-size: 30px;
+    }
+    .about-row h1{
+       font-size: 30px;
+
+    }
+    .feature img{
+        width: 160px;
+        height: 110px;
+        margin-left: 26%;
+    }
+    
+
+}
